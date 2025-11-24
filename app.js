@@ -46,7 +46,19 @@ app.get("/", (req, res) => {
 app.get("/bacheca", (req, res) => {
   res.send(`
     <h1>My Posts</h1>
-    ${posts.map((post) => `<img src="${post.immagine}" width="300">`).join("")}
+    ${posts
+      .map(
+        (post) => `
+          <div>
+            <h2>${post.titolo}</h2>
+            <img src="${post.immagine}" width="300">
+            <p>${post.contenuto}</p>
+            <p>Tags: ${post.tags.join(", ")}</p>
+          </div>
+          <hr>
+        `
+      )
+      .join("")}
   `);
 });
 
