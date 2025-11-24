@@ -7,34 +7,35 @@ app.use(express.static("public"));
 /* Array */
 const posts = [
   {
-    titolo: "Titolo 1",
-    contenuto: "Contenuto 1",
+    titolo: "Ciambellone",
+    contenuto: "Buonissimo",
     immagine: "/img/ciambellone.jpeg",
-    tags: ["tag 1", "tag 2", "tag 3"],
+    tags: ["dolce", "colazione", "semplice"],
   },
   {
-    titolo: "Titolo 2",
-    contenuto: "Contenuto 2",
+    titolo: "Cracker di Barbabietola",
+    contenuto: "Ma cosa sto guardando",
     immagine: "/img/cracker_barbabietola.jpeg",
-    tags: ["tag 1", "tag 2", "tag 3"],
+    tags: ["snack", "salato", "veloce"],
   },
   {
-    titolo: "Titolo 3",
-    contenuto: "Contenuto 3",
+    titolo: "Pane Fritto Dolce",
+    contenuto: "Da provare?",
     immagine: "/img/pane_fritto_dolce.jpeg",
-    tags: ["tag 1", "tag 2", "tag 3"],
+    tags: ["dolce", "merenda", "tradizione"],
   },
   {
-    titolo: "Titolo 4",
-    contenuto: "Contenuto 4",
+    titolo: "Pasta alla Barbabietola",
+    contenuto:
+      "Sembra quel tipico piatto da ristorante a 5 stelle che lo provi e sa di legno",
     immagine: "/img/pasta_barbabietola.jpeg",
-    tags: ["tag 1", "tag 2", "tag 3"],
+    tags: ["pasta", "vegetariano", "veloce"],
   },
   {
-    titolo: "Titolo 5",
-    contenuto: "Contenuto 5",
+    titolo: "Torta Paesana",
+    contenuto: "Immagini IA tipo:",
     immagine: "/img/torta_paesana.jpeg",
-    tags: ["tag 1", "tag 2", "tag 3"],
+    tags: ["dolce", "rustico", "tradizione"],
   },
 ];
 
