@@ -20,7 +20,7 @@ const posts = [
   },
   {
     titolo: "Pane Fritto Dolce",
-    contenuto: "Da provare?",
+    contenuto: "Ci ho ripensato, da NON provare",
     immagine: "/img/pane_fritto_dolce.jpeg",
     tags: ["dolce", "merenda", "tradizione"],
   },
